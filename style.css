@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'DanaYad';
+	src: url('fonts/DanaYadAlefAlefAlef-Normal.woff');
+}
+
+body {
+	font-family: 'DanaYad';
+	direction: rtl;
+	margin: 0 auto;
+}
+
+/* NAV */
+
+.logo {
+	font-size: 3em;
+	padding: 20px 80px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: center;
+	border-top: 1px dashed #bbb;
+	border-bottom: 1px dashed #bbb;
+	margin: 15px 0;
+}
+
+.main-nav>li {
+	list-style: none;
+	font-size: 1.5em;
+}
+
+.main-nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 10px 30px;
+}
+
+.main-nav a:hover {
+	background-color: #eee;
+}
+
+
+/* COVER */
+
+.cover {
+	width: 100%;
+	height: 60vh;
+	object-fit: cover;
+	display: block;
+}
+
+/* CONTENT */
+
+.grid-container {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr;
+	margin: 40px 8%;
+}
+
+.content {
+	font-size: 1.5em;
+}
+
+.sapir-doll {
+	width: 100%;
+}
+
+footer {
+	background-color: #eee;
+	padding: 15px;
+	text-align: center;
+}
